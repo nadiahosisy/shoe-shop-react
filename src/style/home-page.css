@@ -1,0 +1,19 @@
+.home-page {
+  display: flex;
+  flex-direction: row;
+
+  gap: 30px;
+}
+.image-home-page {
+  position: relative;
+  top: 330px;
+  left: 100px;
+  z-index: 2;
+  width: 800px;
+}
+
+.p-home-page {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 80px;
+  color: white;
+}

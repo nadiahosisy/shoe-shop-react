@@ -1,0 +1,40 @@
+.shoe-details-container {
+  display: flex;
+  flex-direction: row;
+  gap: 150px;
+  margin: 5rem 13rem auto;
+}
+
+.left-shoe-details {
+  background: #ffffff;
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0 2px 30px rgba(0, 0, 0, 0.3);
+  height: 480px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 350px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.left-shoe-details:hover {
+  transform: scale(1.01);
+  box-shadow: 0 2px 30px rgb(94, 21, 21);
+  transition-duration: 300ms;
+}
+.edit-shoe-form:hover {
+  box-shadow: 0 2px 20px rgb(94, 21, 21);
+  transition-duration: 300ms;
+}
+
+.right-shoe-details:hover {
+  transform: scale(1.01);
+}
+
+.delete-btn {
+  margin-top: 10px;
+  background-color: rgb(179, 18, 18);
+}
