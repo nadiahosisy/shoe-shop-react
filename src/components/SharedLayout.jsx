@@ -6,10 +6,7 @@ const SharedLayout = ({ user }) => {
     <div className="container">
       <header>
         <nav className="navbar">
-          <img
-            className="nike-logo-img"
-            src="../public/images/nike-logo.svg"
-          ></img>
+          <img className="nike-logo-img" src="../images/nike-logo.svg"></img>
           <ul className="nav-links">
             <li>
               <NavLink to="/" activeClassName="active" exact>
